@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDIProject", "WpfDIProject\WpfDIProject.csproj", "{C967382E-0DA1-4272-A7D7-0AE41CF42EA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfDIProject", "WpfDIProject\WpfDIProject.csproj", "{C967382E-0DA1-4272-A7D7-0AE41CF42EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMultiWindow", "..\WpfMultiWindow\WpfMultiWindow.csproj", "{76EFA4FC-B5CD-4D28-ABC1-4D990E2CE2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{8CAFCBE0-1B9A-4B60-B71C-A00633206F3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C967382E-0DA1-4272-A7D7-0AE41CF42EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C967382E-0DA1-4272-A7D7-0AE41CF42EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C967382E-0DA1-4272-A7D7-0AE41CF42EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EFA4FC-B5CD-4D28-ABC1-4D990E2CE2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EFA4FC-B5CD-4D28-ABC1-4D990E2CE2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EFA4FC-B5CD-4D28-ABC1-4D990E2CE2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EFA4FC-B5CD-4D28-ABC1-4D990E2CE2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAFCBE0-1B9A-4B60-B71C-A00633206F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAFCBE0-1B9A-4B60-B71C-A00633206F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAFCBE0-1B9A-4B60-B71C-A00633206F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAFCBE0-1B9A-4B60-B71C-A00633206F3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
